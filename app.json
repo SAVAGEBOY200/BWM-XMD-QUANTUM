@@ -1,6 +1,6 @@
 
 {
-  "name": "BWM-XMD-QUANTUM",
+  "name": "SAVAGE-XMD-QUANTUM",
   "description": "Best WhatsApp bot developed by Ibrahim Adams",
   "keywords": ["bot", "node", "baileys", "whatsapp"],
   "logo": "https://files.catbox.moe/2kcb4s.jpeg",
@@ -10,7 +10,7 @@
   "env": {
     "PREFIX": {
       "description": "Choose your prefix for your bot",
-      "value": ".",
+      "value": "*",
       "required": true
     },
     "AUTO_REJECT_CALL": {
@@ -26,22 +26,22 @@
     "AUTO_READ_STATUS": {
       "description": "Your status will be read automatically (type yes to activate or no to deactivate)",
       "value": "yes",
-      "required": false
+      "required": true
     },
     "AUTO_DOWNLOAD_STATUS": {
       "description": "Status will be sent to your inbox automatically (type yes to activate or no to deactivate)",
-      "value": "no",
-      "required": false
+      "value": "no" 
+      "required": true
     },
     "AUTO_READ": {
       "description": "Messages will be marked as read automatically (type yes to activate or no to deactivate)",
-      "value": "no",
-      "required": false
+      "value": "yes",
+      "required": true
     },
     "BOT_NAME": {
       "description": "Name for your bot",
-      "value": "BWM-XMD",
-      "required": false
+      "value": "SAVAGE-XMD",
+      "required": true
     },
     "BOT_IMAGE": {
       "description": "Image URL for your bot menu",
@@ -63,7 +63,7 @@
       "value": "",
       "required": true 
     },
-    "OWNER_NUMBER": {
+    "OWNER_NUMBER": {+255765457691
       "description": "Enter your number eg, 2547xxxxxxx",
       "value": "",
       "required": true 
@@ -71,22 +71,22 @@
    "STATUS_REACT_EMOJIS": {
       "description": "Enter your auto like status emojis",
       "value": "💚,🚀,🌎,✅",
-      "required": false 
+      "required": true
     },
     "AUTO_REACT": {
       "description": "Enter your auto react messages",
-      "value": "no",
-      "required": false 
+      "value": "yes",
+      "required": true
     },
    "AUTO_REACT_STATUS": {
       "description": "Enter yes for your bot to auto like status",
       "value": "yes",
-      "required": false 
+      "required": true 
     },
     "OWNER_NAME": {
       "description": "Owner name",
       "value": "Ibrahim Adams",
-      "required": false
+      "required": true
     },
     "SESSION_ID": {
       "description": "Your session ID",
@@ -100,23 +100,23 @@
     },
     "PRESENCE": {
       "description": "Presence mode: 1=online, 2=typing, 3=recording",
-      "value": "",
-      "required": false
+      "value": "2",
+      "required": true
     },
     "ANTIDELETE_SENT_INBOX": {
       "description": "Enable anti-delete to be sent inbox (yes/no)",
       "value": "yes",
-      "required": false
+      "required": true
     },
    "ANTIDELETE_RECOVER_CONVENTION": {
       "description": "Enable anti-delete deleted to recover in conversation (yes/no)",
-      "value": "no",
+      "value": "yes",
       "required": false
     },	  
     "GROUPANTILINK": {
       "description": "Enable anti-link in groups (yes/no)",
       "value": "yes",
-      "required": false
+      "required": true
     },
     "CHATBOT": {
       "description": "Enable text chatbot (yes/no)",
@@ -125,13 +125,13 @@
     },
     "WELCOME_MESSAGE": {
       "description": "Enable welcoming message in groups (yes/no)",
-      "value": "no",
-      "required": false
+      "value": "yes",
+      "required": true
     },
     "GOODBYE_MESSAGE": {
       "description": "Enable  goodbye in groups (yes/no)",
-      "value": "no",
-      "required": false
+      "value": "yes",
+      "required": true
     },
     "AUDIO_CHATBOT": {
       "description": "Enable audio chatbot (yes/no)",
