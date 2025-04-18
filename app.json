@@ -10,7 +10,7 @@
   "env": {
     "PREFIX": {
       "description": "Choose your prefix for your bot",
-      "value": "*",
+      "value": "$",
       "required": true
     },
     "AUTO_REJECT_CALL": {
@@ -30,7 +30,7 @@
     },
     "AUTO_DOWNLOAD_STATUS": {
       "description": "Status will be sent to your inbox automatically (type yes to activate or no to deactivate)",
-      "value": "no",
+      "value": "yes",
       "required": false
     },
     "AUTO_READ": {
@@ -105,12 +105,12 @@
     },
     "ANTIDELETE_SENT_INBOX": {
       "description": "Enable anti-delete to be sent inbox (yes/no)",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
    "ANTIDELETE_RECOVER_CONVENTION": {
       "description": "Enable anti-delete deleted to recover in conversation (yes/no)",
-      "value": "no",
+      "value": "yes",
       "required": false
     },	  
     "GROUPANTILINK": {
@@ -125,12 +125,12 @@
     },
     "WELCOME_MESSAGE": {
       "description": "Enable welcoming message in groups (yes/no)",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "GOODBYE_MESSAGE": {
       "description": "Enable  goodbye in groups (yes/no)",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "AUDIO_CHATBOT": {
