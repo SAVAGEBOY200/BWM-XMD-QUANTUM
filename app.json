@@ -10,7 +10,7 @@
   "env": {
     "PREFIX": {
       "description": "Choose your prefix for your bot",
-      "value": "*",
+      "value": "$",
       "required": true
     },
     "AUTO_REJECT_CALL": {
@@ -35,7 +35,7 @@
     },
     "AUTO_READ": {
       "description": "Messages will be marked as read automatically (type yes to activate or no to deactivate)",
-      "value": "yes",
+      "value": "no",
       "required": true
     },
     "BOT_NAME": {
@@ -50,7 +50,7 @@
     },
     "PUBLIC_MODE": {
       "description": "Type yes for public mode or no for private mode",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "HEROKU_API_KEY": {
@@ -105,7 +105,7 @@
     },
     "ANTIDELETE_SENT_INBOX": {
       "description": "Enable anti-delete to be sent inbox (yes/no)",
-      "value": "yes",
+      "value": "no",
       "required": true
     },
    "ANTIDELETE_RECOVER_CONVENTION": {
@@ -125,12 +125,12 @@
     },
     "WELCOME_MESSAGE": {
       "description": "Enable welcoming message in groups (yes/no)",
-      "value": "yes",
+      "value": "no",
       "required": true
     },
     "GOODBYE_MESSAGE": {
       "description": "Enable  goodbye in groups (yes/no)",
-      "value": "yes",
+      "value": "no",
       "required": true
     },
     "AUDIO_CHATBOT": {
