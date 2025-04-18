@@ -105,7 +105,7 @@
     },
     "ANTIDELETE_SENT_INBOX": {
       "description": "Enable anti-delete to be sent inbox (yes/no)",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
    "ANTIDELETE_RECOVER_CONVENTION": {
